@@ -2,15 +2,18 @@
 //  ContentView.swift
 //  UIviewRepresentable
 //
-//  Created by Aftaab Mulla on 28/09/25.
-//
 
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
         VStack {
-            
+            PractiseTextField()
+                .frame(width: 300, height: 50)
+                .background(
+                    RoundedRectangle(cornerRadius: 10)
+                        .stroke(Color.black, lineWidth: 1)
+                )
         }
     }
 }

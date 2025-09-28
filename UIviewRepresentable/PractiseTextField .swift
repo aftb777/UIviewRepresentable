@@ -2,8 +2,6 @@
 //  PractiseTextField .swift
 //  UIviewRepresentable
 //
-//  Created by Aftaab Mulla on 28/09/25.
-//
 
 import Foundation
 import SwiftUI
