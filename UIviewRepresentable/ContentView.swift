@@ -10,7 +10,7 @@ struct ContentView: View {
         VStack {
             PractiseTextField()
                 .frame(width: 300, height: 50)
-                .background(
+                .overlay(
                     RoundedRectangle(cornerRadius: 10)
                         .stroke(Color.black, lineWidth: 1)
                 )
